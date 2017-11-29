@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>calculator</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<p id="main"></p>
+		<div id="buttons">
+			<p id="clear" class="numbers manipulation" onclick="allClear()">AC</p>
+			<p id="plusMinus" class="numbers manipulation" onclick="positiveOrNegative()">+/−</p>
+			<p id="percent" class="numbers manipulation" onclick="percent()">%</p>
+			<p id="divide" class="numbers manipulation" onclick="divide()">÷</p>
+			<p id="7" class="numbers" onclick="getNumber(7)">7</p>
+			<p id="8" class="numbers" onclick="getNumber(8)">8</p>
+			<p id="9" class="numbers" onclick="getNumber(9)">9</p>
+			<p id="multiple" class="numbers manipulation" onclick="multiple()">×</p>
+			<p id="4" class="numbers" onclick="getNumber(4)">4</p>
+			<p id="5" class="numbers" onclick="getNumber(5)">5</p>
+			<p id="6" class="numbers" onclick="getNumber(6)">6</p>
+			<p id="minus" class="numbers manipulation" onclick="minus()">−</p>
+			<p id="1" class="numbers" onclick="getNumber(1)">1</p>
+			<p id="2" class="numbers" onclick="getNumber(2)">2</p>
+			<p id="3" class="numbers" onclick="getNumber(3)">3</p>
+			<p id="sum" class="numbers manipulation" onclick="sum()">+</p>
+			<p id="zero" class="numbers" onclick="getNumber(0)">0</p>
+			<p id="point" class="numbers manipulation" onclick="dot()">.</p>
+			<p id="equal" class="numbers manipulation" onclick="equal()">=</p>
+		</div>
+	</body>
+</html>
